@@ -1,0 +1,53 @@
+/*  Iets van CSS voor de Introducte pagina om mee te beginnen.  */
+
+body {
+    width: 1000px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    padding: 40px 40px 40px 40px;
+
+}
+
+main {
+    width: 100%;
+}
+
+h1, h2, h3, p {
+    font-family: "Century Gothic", Merriweather, serif;
+    font-weight: 300em;
+}
+
+footer {
+    font-family: "Century Gothic", Merriweather, serif;
+    color: firebrick;
+    font-weight: 300em;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2, h3 {
+    font-size: 18px;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:hover, a:active {
+    outline: 0;
+}
